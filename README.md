@@ -4,5 +4,5 @@ Project 2
 MUST EDIT WITH YOUR OWN NAME AND EMAIL IN THE SAME FORMAT
 
 Group members:
-Ada Lovelace adalovelace@csu.fullerton.edu
+Marianne Tolentino mariannetolentino@csu.fullerton.edu
 Christopher Phongsa cphongsa@csu.fullerton.edu
