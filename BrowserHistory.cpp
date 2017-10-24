@@ -70,6 +70,8 @@ void BrowserHistory::readHistory(string filename) {
                     myfile >> url >> t; 
                     visitSite(Webpage(url, t));
                 }
+                else 
+                    throw invalid_argument ("file does not contain the right format.");
             }
             myfile.close();
         }
