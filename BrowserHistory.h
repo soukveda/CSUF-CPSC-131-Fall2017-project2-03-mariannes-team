@@ -17,7 +17,7 @@ public:
     string back();
     string forward();
 
-    void readHistory(string fileName);
+    void readHistory(string filename);
 
     string getURL();
     size_t getNavSize();
@@ -27,7 +27,7 @@ public:
     void printFullHistory();
 
 private:
-    // Add private member variables for your class along with any
-    // other variables required to implement the public member functions
-    // TO BE COMPLETED
+    list<Webpage> history; 
+    list<Webpage> nav_hist;
+    list<Webpage>::iterator nav_iter; 
 };

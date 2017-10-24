@@ -1,17 +1,19 @@
 #include "Webpage.h"
 
 Webpage::Webpage() {
-    // TO BE COMPLETED
+    url = "N/A";
+    t_visited = 0; 
 }
 
 Webpage::Webpage(const string& webpageURL, const time_t& timeVisited) {
-    // TO BE COMPLETED
+    url = webpageURL;
+    t_visited = timeVisited;
 }
 
 string Webpage::getURL() {
-    // TO BE COMPLETED
+    return url;
 }
 
 time_t Webpage::getTime() {
-    // TO BE COMPLETED
+    return t_visited; 
 }
